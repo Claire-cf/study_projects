@@ -1,0 +1,89 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.act-container {
+	font-family: Microsoft YaHei;
+	width: 1085px;
+	margin: 85px auto;
+	display: table;
+
+}
+.act-item {
+	width: 100%;
+	padding-left: 25px;
+	padding-right: 25px;
+	/*float: left;*/
+	display: table-cell;
+
+}
+
+.act-pic {
+	display: block;
+	position: relative;
+	margin-bottom: 30px;
+	color: #757779;
+	outline: 0;
+	text-decoration: none;
+
+}
+.act-item a img {
+	width: 250px;
+	height: 355px;
+	vertical-align: middle;
+	border-style: none;
+	
+}
+.tag {
+	display: block;
+    width: 66px;
+    height: 32px;
+    border: 1px solid #202020;
+    background-color: #fff;
+    text-align: center;
+    line-height: 32px;
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    margin-left: -33px;
+    z-index: 100;
+    font-size: 16px;
+}
+.txt-info {
+	display: block;
+	text-decoration: none;
+}
+.tit {
+	display: block;
+	font-size: 16px;
+    color: #000;
+    line-height: 24px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-top: 0px;
+}
+.desc {
+	display: block;
+	font-size: 13px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #9b9b9b;
+}
+.act-item a:hover {
+	color: #000;
+	/*font-weight: bolder;*/
+}
+.act-item p:hover {
+	color: #000;
+}
+.items-time {
+	border-top: 1px solid #ddd;
+    color: #a5a7aa;
+    padding: 10px 0;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}

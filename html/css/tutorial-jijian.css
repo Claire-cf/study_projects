@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Microsoft YaHei;
+}
+.tutorial-head {
+	width: 1085px;
+	height: 42px;
+	margin-bottom: 15px;
+	margin: 60px auto;
+	text-align: center;
+}
+.tutorial-head h2 {
+	color: #1d2129;
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: 500;
+}
+.t-author {
+	margin: 15px auto;
+	margin-bottom: 50px;
+}
+#au {
+	color: #4a4a4a;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.tutorial-body {
+	width: 760px;
+	text-align: left;
+	margin: 100px auto;
+}
+.tutorial-body p {
+	max-width: 760px;
+	/*height: 30px;*/
+    margin: 0 auto;
+    font-size: 16px;
+    color: #4a4a4a;
+    display: block;
+    line-height: 30px;
+    font-weight: 400;
+}
+.tutorial-body img {
+	display: table-cell;
+	max-width: 100%;
+	vertical-align: middle;
+    border-style: none;
+    margin: 20px auto;
+}
+.zan {
+	width: 760px;
+	margin: 60px auto;
+	text-align: center;
+}
+.zan img {
+	width: 90px;
+	height: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+.zan p {
+	color: #757779;
+	font-size: 14px;
+}
+.comment-box {
+	width: 760px;
+	margin: 30px auto;
+}
+.comment-body {
+	width: 705px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.commeng-out {
+	text-align: right;
+	margin-top: 5px;
+	width: 739px;
+
+}
+.c-out {
+	color: #202020;
+	border: 1px solid #202020;
+    /*border-color: #202020;*/
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 400;
+    /*font-size: 16px;*/
+    line-height: 1.4;
+    padding: .57143rem 1.42857rem;
+    font-size: 1.07143rem;
+    color: #4a4a4a;
+    outline: none;
+}

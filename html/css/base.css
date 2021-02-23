@@ -1,0 +1,202 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/*导航栏*/
+.nav-b {
+	height: 75px;
+	background-color: #fafafa;
+	border-bottom: 1px solid #edeeee;
+}
+.nav-s {
+	position: relative;
+	margin-left: 120px;
+	margin-right: 120px; 
+	line-height: 75px;
+	height: 75px;
+}
+.nav-s a {
+	text-decoration: none;
+	color: #333333;
+	display: block;
+	/*margin-right: 40px;*/
+	font-family: \5FAE\8F6F\96C5\9ED1;
+	font-weight: bolder;
+	font-size: 14px;
+}
+.nav-s a:hover {
+	border-bottom-color: #000;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	color: #000;
+}
+.nav-right a {
+	margin-left: 45px;
+}
+.nav-left a {
+	margin-right: 45px;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+li {
+	float: left;
+}
+.nav-left {
+	float: left;
+	width: 415px;
+}
+.nav-brand {
+	/*float: left;*/
+	/*width: 193px;*/
+	height: 75px;
+	width: auto;
+	position: absolute;
+	left: 50%;
+	margin-left: -32.5px;
+	
+}
+.nav-brand img {
+	width: 100px;
+	height: 33px;
+	vertical-align: middle;
+}
+/*.nav-brand a {
+	width: 200px;
+	height: 75px;
+}*/
+.nav-right {
+	float: right;
+	width: 415px;
+}
+.nav-right ul {
+	margin-left: 254px;
+	height: 75px;
+}
+/*底部 与上面空隙70px，高度490px，border上和下*/
+.footer-group {
+	position: relative;
+	margin-left: 120px;
+	margin-right: 120px;
+	height: 280px;
+	margin-top: 70px;
+}
+.footer {
+	height: 100px;
+	border-top: 2px #e2e2e2 solid;
+	border-bottom: 2px #e2e2e2 solid;
+}
+.c-1 {
+	position: relative;
+/*	margin-right: 300px;
+	margin-left: 378px;*/
+	margin-top: 25px;
+	text-align: center;
+}
+.c-1 a {
+	text-decoration: none;
+	text-align: center;
+	color: #757779;
+	font-size: 12px;
+	font-weight: 600;
+	/*display: block;*/
+	margin-right: 20px;
+}
+.c-1 a:hover {
+	color: #000;
+}
+.c-2 {
+	text-align: center;
+	color: #9b9b9b;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.footer-left {
+	height: 46px;
+	width: 341px;
+	/*margin: 0 auto;*/
+	float: left;
+	position: absolute;
+	margin-top: 27px;
+	margin-bottom: 27px
+	/*line-height: 100px;*/
+}
+.advice-group {
+	height: 42px;
+	width: 370px;
+	/*margin: 0 auto;*/
+	/*margin-left: 20px;*/
+}
+.advice {
+	height: 42px;
+	width: 370px;
+}
+.advice input {
+	height: 42px;
+	width: 265px;
+	border: 1px #000 solid;
+	/*margin-left: 3px;*/
+	float: left;
+}
+.advice input:focus {
+	outline: none;
+}
+.advice button {
+	height: 42px;
+	width: 70px;
+	margin-left: 0;
+	border-top: 1px #000 solid;
+	border-right: 1px #000 solid;
+	border-bottom: 1px #000 solid;
+	background-color: #FFF;
+	cursor: pointer;
+
+}
+.advice button:focus {
+	outline: none;
+}
+/*.footer-center {
+	height: 100px;
+	width: 341px;
+	float: left;
+}*/
+.footer-right {
+	height: 100px;
+	width: 260px;
+	float: right;
+}
+.weibo img,
+.wechat img,
+.facebook img,
+.ins img {
+	height: 24px;
+	width: 24px;
+	float: right;
+	margin-left: 20px;
+}
+.follow-us {
+	vertical-align: middle;
+	/*margin-right: 5px;*/
+	width: 60px;
+	float: left;
+	font-size: 14px;
+	color: #000;
+	line-height: 100px;
+}
+/*.follow-us span {
+	color: #e2e2e2;
+	font-size: 12px;
+}*/
+.weibo,
+.wechat,
+.facebook,
+.ins {
+	height: 30px;
+	width: 30px;
+	float: right;
+	margin-left: 20px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
